@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Maria" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="136" head="77" body="79" legs="61" feet="131" addons="0"/>
+    <parameters>
+       <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="meat,2666,5;ham,2671,8;tomato,2685,5;cookie,2687,5;bread,2689,4;egg,2695,2;cheese,2696,6;valentine cake,6393,100" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>
+

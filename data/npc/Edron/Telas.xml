@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Telas" script="default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="115" body="48" legs="101" feet="116" addons="1"/>
+ <parameters>
+        
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="crystal of balance,9942,1000;crystal of focus,9941,2000;crystal of power,9980,3000;hunge chunk of crude iron,5892,15000;piece of draconian steel,5889,3000;piece of hell steel,5888,500;piece of royal steel,5887,10000" />
+    
+</parameters>
+</npc>

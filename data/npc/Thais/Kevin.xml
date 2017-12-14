@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Kevin" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="76" body="43" legs="38" feet="76"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="parcel,2595,15;letter,2597,10"/>
+	</parameters>
+</npc>

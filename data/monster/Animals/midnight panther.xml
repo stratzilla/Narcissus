@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Midnight Panther" nameDescription="a midnight panther" race="blood" experience="900" speed="300" manacost="0">
+	<health now="1200" max="1200"/>
+	<look type="125" corpse="6051"/>
+	<targetchange interval="2000" chance="9"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="120"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="20" attack="60"/>
+		<attack name="energy" interval="2000" chance="16"  range="3" radius="1" target="1" max="-215">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="energy"/>
+		</attack>		
+	</attacks>
+	<defenses armor="5" defense="15">
+		<defense name="speed" interval="2000" chance="16" speedchange="775" duration="3000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	<defense name="healing" interval="2000" chance="16" min="300" max="400">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	<defense name="invisible" interval="2000" chance="16">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="1"/>
+		<element deathPercent="-1"/>
+	</elements>
+	<immunities>
+		<immunity energy="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="10">
+		<voice sentence="MEOW" yell="1"/>
+		<voice sentence="Groooooooar" yell="0"/>
+		<voice sentence="Groarrrrrrrr" yell="0"/>
+		<voice sentence="Purrrrrrrr" yell="0"/>
+	</voices>
+	<loot>
+    <item id="2148" countmax="90" chance="40800" /><!-- gold coin -->
+    <item id="2666" countmax="3" chance="40550" /><!-- meat -->
+	</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</monster>

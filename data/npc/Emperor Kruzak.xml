@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Emperor Kruzak" script="data/npc/scripts/Emperor Kruzak.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="66" head="0" body="0" legs="0" feet="0" addons="0"/>
+<parameters>
+       <parameter key="message_greet" value="Hiho, may Fire and Earth bless you, my child."/>
+        <parameter key="message_farewell" value="Farewell, |PLAYERNAME|, my child!"/>
+		<parameter key="message_walkaway" value="Farewell, |PLAYERNAME|, my child!" />
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;justice;order;good;evil;god;durin;time;mission;quest;sell;food;equipment;mines;tibia;lands;castle;dungeons;druids;paladins;knights;sorcerors;heroes;monsters;enemy;elves;minotaurs;excalibug;ferumbras;carlin;edron;thais;tbi;elane;emperor;father;old;noodles" />
+        <parameter key="keyword_reply1" value="Well, I am Emperor Kruzak Dustbeard, son of Fire and Earth, second only to the {gods}, jawoll." />
+		<parameter key="keyword_reply2" value="Well, I'm the emperor of the dwarfs. It's my duty to protect my folk and to see that justice is done." />
+		<parameter key="keyword_reply3" value="Well, justice is a difficult thing. Can one be just to all at once, and if not, to whom should he be just?" />
+		<parameter key="keyword_reply4" value="Well, order is of great importance. Life has to follow rules, so do we." />
+		<parameter key="keyword_reply5" value="Well, good and {evil} will fight each other for all eternity." />
+		<parameter key="keyword_reply6" value="Well, {good} and evil will fight each other for all eternity." />
+		<parameter key="keyword_reply7" value="Well, we honor Father Earth and Mother Fire. Some of us even follow the teachings of additional {gods}." />
+		<parameter key="keyword_reply8" value="Well, Durin is one of the celestial {paladins}, messenger of the gods. He's the protector of the dwarven race." />
+		<parameter key="keyword_reply9" value="Well, after some centuries I stopped to worry about time anymore." />
+		<parameter key="keyword_reply10" value="Well, if you wander the world with open eyes, you will see the quests without asking." />
+		<parameter key="keyword_reply11" value="Well, if you wander the world with open eyes, you will see the quests without asking." />
+		<parameter key="keyword_reply12" value="Well, what do you expect kings to sell?" />
+		<parameter key="keyword_reply13" value="Well, go and buy some in the city." />
+		<parameter key="keyword_reply14" value="Well, go and buy some in the city." />
+		<parameter key="keyword_reply15" value="Well, our mines have been invaded by a basilisk. We trapped him with a cave in. The hero that brings me the body of this beast, will get a great reward." />
+		<parameter key="keyword_reply16" value="Well, the gods handed the lands over to the younger races, but my people will leave this word in dignity." />
+		<parameter key="keyword_reply17" value="Well, the gods handed the lands over to the younger races, but my people will leave this word in dignity." />
+		<parameter key="keyword_reply18" value="Well, our people need no castle, our home IS a fortress." />
+		<parameter key="keyword_reply19" value="Well, there are a lot of dungeons in the lands, waiting to be explored by the daring ones." />
+		<parameter key="keyword_reply20" value="Well, we have almost no druids in our town. If need arises we can call for them from {Carlin}." />
+		<parameter key="keyword_reply21" value="Well, we have some crossbowmen in our army but rely more on our knights." />
+		<parameter key="keyword_reply22" value="Well, dwarfish knights are feared by our enemies in the whole world." />
+		<parameter key="keyword_reply23" value="Well, the sorcerers are followers of the elemental powers." />
+		<parameter key="keyword_reply24" value="Well, we dwarfs produced some of the greatest heroes of all times." />
+		<parameter key="keyword_reply25" value="Well, it's up to the younger ones to slay the beasts that roam the lands and the tunnels." />
+		<parameter key="keyword_reply26" value="Well, only a dead enemy is a good enemy." />
+		<parameter key="keyword_reply27" value="Well, they are not as bad as one might think." />
+		<parameter key="keyword_reply28" value="Well, we don't fear them. They seem more occupied with the humans anyway." />
+		<parameter key="keyword_reply29" value="Well, well, well, the godblade. A myth? Perhaps. Even in my youth, it was only a legend." />
+		<parameter key="keyword_reply30" value="Well, we are prepared even for him." />
+		<parameter key="keyword_reply31" value="Well we are at peace with Carlin and {Thais}." />
+		<parameter key="keyword_reply32" value="Well, it is a colony of this human king." />
+		<parameter key="keyword_reply33" value="Well we are at peace with {Carlin} and Thais." />
+		<parameter key="keyword_reply34" value="Well, I don't think our southern allies have agents in our town." />
+		<parameter key="keyword_reply35" value="Well, the High {Paladin} is a woman that deserves respect. I admired most Elanes I met in my life." />
+		<parameter key="keyword_reply36" value="Well, I am the emperor of the dwarfs and the oldest living dwarf, jawoll!" />
+		<parameter key="keyword_reply37" value="Well, more than 150 years ago, my father lost his beard overnight. Thereupon, he resigned from his leadership after hundreds of years of supreme ruling." />
+		<parameter key="keyword_reply38" value="Well, I don't want to talk about my age." />
+		<parameter key="keyword_reply39" value="WAAAH! Don't mention that beast! It was after the bones of our ancestors, last time King Tibianus visted us!" />
+    </parameters>
+</npc>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocations>
+	<vocation id="0" name="None" description="none" needpremium="0" gaincap="5" gainhp="5" gainmana="5" gainhpticks="3" gainhpamount="2" gainmanaticks="1" gainmanaamount="1" manamultiplier="1.0" attackspeed="1000" soulmax="100" gainsoulticks="15" fromvoc="0" attackable="no">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="2.0" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="1.5"/>
+		<skill id="1" multiplier="2.0"/>
+		<skill id="2" multiplier="2.0"/>
+		<skill id="3" multiplier="2.0"/>
+		<skill id="4" multiplier="2.0"/>
+		<skill id="5" multiplier="1.5"/>
+		<skill id="6" multiplier="1.1"/>
+	</vocation>
+	<vocation id="1" name="Sorcerer" description="a sorcerer" needpremium="0" gaincap="10" gainhp="5" gainmana="30" gainhpticks="3" gainhpamount="3" gainmanaticks="3" gainmanaamount="5" manamultiplier="1.0" attackspeed="700" soulmax="100" gainsoulticks="15" fromvoc="1" lessloss="30">
+		<formula meleeDamage="0.8" distDamage="0.6" wandDamage="1.1" magDamage="1.1" magHealingDamage="1.0" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="1.5"/>
+		<skill id="1" multiplier="2.0"/>
+		<skill id="2" multiplier="2.0"/>
+		<skill id="3" multiplier="2.0"/>
+		<skill id="4" multiplier="2.0"/>
+		<skill id="5" multiplier="1.5"/>
+		<skill id="6" multiplier="1.1"/>
+	</vocation>
+	<vocation id="2" name="Druid" description="a druid" needpremium="0" gaincap="10" gainhp="5" gainmana="30" gainhpticks="3" gainhpamount="3.5" gainmanaticks="3" gainmanaamount="4.5" manamultiplier="1.0" attackspeed="700" soulmax="100" gainsoulticks="15" fromvoc="2" lessloss="30">
+		<formula meleeDamage="0.8" distDamage="0.6" wandDamage="1.1" magDamage="1.0" magHealingDamage="1.1" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="1.5"/>
+		<skill id="1" multiplier="1.8"/>
+		<skill id="2" multiplier="1.8"/>
+		<skill id="3" multiplier="1.8"/>
+		<skill id="4" multiplier="1.8"/>
+		<skill id="5" multiplier="1.5"/>
+		<skill id="6" multiplier="1.1"/>
+	</vocation>
+	<vocation id="3" name="Paladin" description="a paladin" needpremium="0" gaincap="20" gainhp="10" gainmana="15" gainhpticks="3" gainhpamount="4" gainmanaticks="3" gainmanaamount="4" manamultiplier="1.0" attackspeed="800" soulmax="100" gainsoulticks="15" fromvoc="3" lessloss="30">
+		<formula meleeDamage="1.0" distDamage="1.1" wandDamage="0.8" magDamage="1.0" magHealingDamage="1.0" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="1.2"/>
+		<skill id="1" multiplier="1.2"/>
+		<skill id="2" multiplier="1.2"/>
+		<skill id="3" multiplier="1.2"/>
+		<skill id="4" multiplier="1.1"/>
+		<skill id="5" multiplier="1.1"/>
+		<skill id="6" multiplier="1.1"/>
+	</vocation>
+	<vocation id="4" name="Knight" description="a knight" needpremium="0" gaincap="25" gainhp="15" gainmana="5" gainhpticks="3" gainhpamount="5" gainmanaticks="3" gainmanaamount="3" manamultiplier="1.0" attackspeed="700" soulmax="100" gainsoulticks="15" fromvoc="4" lessloss="30">
+		<formula meleeDamage="1.1" distDamage="0.8" wandDamage="0.6" magDamage="1.0" magHealingDamage="1.0" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="1.1"/>
+		<skill id="1" multiplier="1.1"/>
+		<skill id="2" multiplier="1.1"/>
+		<skill id="3" multiplier="1.1"/>
+		<skill id="4" multiplier="1.4"/>
+		<skill id="5" multiplier="1.1"/>
+		<skill id="6" multiplier="1.1"/>
+	</vocation>
+	<vocation id="5" name="Master Sorcerer" description="a master sorcerer" needpremium="0" gaincap="10" gainhp="5" gainmana="30" gainhpticks="3" gainhpamount="6" gainmanaticks="3" gainmanaamount="10" manamultiplier="1.0" attackspeed="650" soulmax="125" gainsoulticks="15" fromvoc="1">
+		<formula meleeDamage="0.8" distDamage="0.6" wandDamage="1.2" magDamage="1.2" magHealingDamage="1.0" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="1.5"/>
+		<skill id="1" multiplier="2.0"/>
+		<skill id="2" multiplier="2.0"/>
+		<skill id="3" multiplier="2.0"/>
+		<skill id="4" multiplier="2.0"/>
+		<skill id="5" multiplier="1.5"/>
+		<skill id="6" multiplier="1.1"/>
+	</vocation>
+	<vocation id="6" name="Elder Druid" description="an elder druid" needpremium="0" gaincap="10" gainhp="5" gainmana="30" gainhpticks="3" gainhpamount="7" gainmanaticks="3" gainmanaamount="9" manamultiplier="1.0" attackspeed="650" soulmax="125" gainsoulticks="15" fromvoc="2">
+		<formula meleeDamage="0.8" distDamage="0.6" wandDamage="1.2" magDamage="1.0" magHealingDamage="1.2" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="1.5"/>
+		<skill id="1" multiplier="1.8"/>
+		<skill id="2" multiplier="1.8"/>
+		<skill id="3" multiplier="1.8"/>
+		<skill id="4" multiplier="1.8"/>
+		<skill id="5" multiplier="1.5"/>
+		<skill id="6" multiplier="1.1"/>
+	</vocation>
+	<vocation id="7" name="Royal Paladin" description="a royal paladin" needpremium="0" gaincap="20" gainhp="10" gainmana="15" gainhpticks="3" gainhpamount="8" gainmanaticks="3" gainmanaamount="8" manamultiplier="1.0" attackspeed="750" soulmax="125" gainsoulticks="15" fromvoc="3">
+		<formula meleeDamage="1.0" distDamage="1.2" wandDamage="0.8" magDamage="1.0" magHealingDamage="1.0" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="1.2"/>
+		<skill id="1" multiplier="1.2"/>
+		<skill id="2" multiplier="1.2"/>
+		<skill id="3" multiplier="1.2"/>
+		<skill id="4" multiplier="1.1"/>
+		<skill id="5" multiplier="1.1"/>
+		<skill id="6" multiplier="1.1"/>
+	</vocation>
+	<vocation id="8" name="Elite Knight" description="an elite knight" needpremium="0" gaincap="25" gainhp="15" gainmana="5" gainhpticks="3" gainhpamount="10" gainmanaticks="3" gainmanaamount="6" manamultiplier="1.0" attackspeed="650" soulmax="125" gainsoulticks="15" fromvoc="4">
+		<formula meleeDamage="1.2" distDamage="0.8" wandDamage="0.6" magDamage="1.0" magHealingDamage="1.0" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="1.1"/>
+		<skill id="1" multiplier="1.1"/>
+		<skill id="2" multiplier="1.1"/>
+		<skill id="3" multiplier="1.1"/>
+		<skill id="4" multiplier="1.4"/>
+		<skill id="5" multiplier="1.1"/>
+		<skill id="6" multiplier="1.1"/>
+	</vocation>
+
+	<vocation id="9" name="Wizened Sorcerer" description="a wizened sorcerer" needpremium="0" gaincap="10" gainhp="5" gainmana="30" gainhpticks="3" gainhpamount="9" gainmanaticks="3" gainmanaamount="15" manamultiplier="1.0" attackspeed="600" soulmax="150" gainsoulticks="15" fromvoc="5" lessloss="30">
+		<formula meleeDamage="0.8" distDamage="0.6" wandDamage="1.3" magDamage="1.3" magHealingDamage="1.0" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="1.5"/>
+		<skill id="1" multiplier="2.0"/>
+		<skill id="2" multiplier="2.0"/>
+		<skill id="3" multiplier="2.0"/>
+		<skill id="4" multiplier="2.0"/>
+		<skill id="5" multiplier="1.5"/>
+		<skill id="6" multiplier="1.1"/>
+	</vocation>
+	<vocation id="10" name="Mystic Druid" description="a mystic druid" needpremium="0" gaincap="10" gainhp="5" gainmana="30" gainhpticks="3" gainhpamount="11" gainmanaticks="3" gainmanaamount="13" manamultiplier="1.0" attackspeed="600" soulmax="150" gainsoulticks="15" fromvoc="6" lessloss="30">
+		<formula meleeDamage="0.8" distDamage="0.6" wandDamage="1.3" magDamage="1.0" magHealingDamage="1.3" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="1.5"/>
+		<skill id="1" multiplier="1.8"/>
+		<skill id="2" multiplier="1.8"/>
+		<skill id="3" multiplier="1.8"/>
+		<skill id="4" multiplier="1.8"/>
+		<skill id="5" multiplier="1.5"/>
+		<skill id="6" multiplier="1.1"/>
+	</vocation>
+	<vocation id="11" name="Paragon Paladin" description="a paragon paladin" needpremium="0" gaincap="20" gainhp="10" gainmana="15" gainhpticks="3" gainhpamount="12" gainmanaticks="3" gainmanaamount="12" manamultiplier="1.0" attackspeed="700" soulmax="150" gainsoulticks="15" fromvoc="7" lessloss="30">
+		<formula meleeDamage="0.8" distDamage="1.3" wandDamage="0.8" magDamage="1.0" magHealingDamage="1.0" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="1.2"/>
+		<skill id="1" multiplier="1.2"/>
+		<skill id="2" multiplier="1.2"/>
+		<skill id="3" multiplier="1.2"/>
+		<skill id="4" multiplier="1.1"/>
+		<skill id="5" multiplier="1.1"/>
+		<skill id="6" multiplier="1.1"/>
+	</vocation>
+	<vocation id="12" name="Exalted Knight" description="an exalted knight" needpremium="0" gaincap="25" gainhp="15" gainmana="5" gainhpticks="3" gainhpamount="15" gainmanaticks="3" gainmanaamount="9" manamultiplier="1.0" attackspeed="600" soulmax="150" gainsoulticks="15" fromvoc="8" lessloss="30">
+		<formula meleeDamage="1.3" distDamage="0.8" wandDamage="0.6" magDamage="1.0" magHealingDamage="1.0" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="1.1"/>
+		<skill id="1" multiplier="1.1"/>
+		<skill id="2" multiplier="1.1"/>
+		<skill id="3" multiplier="1.1"/>
+		<skill id="4" multiplier="1.4"/>
+		<skill id="5" multiplier="1.1"/>
+		<skill id="6" multiplier="1.1"/>
+	</vocation>
+</vocations>

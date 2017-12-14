@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Wyda" script="data/npc/scripts/Wyda.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="54" head="0" body="0" legs="0" feet="0" addons="0"/>
+<parameters>
+       <parameter key="message_greet" value="What? Talking to me, |PLAYERNAME|?"/>
+        <parameter key="message_farewell" value="Good luck on your journeys."/>
+		<parameter key="message_walkaway" value="Good luck on your journeys." />
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;gods;nature;plants;mushrooms;herbs;bloodherb;potions;key;king;magic;spell;name;potion;quest;time;queen eloise;swamp;druid;sorcerer;knight;paladin;bonelords;monsters;creatures;cookie;wand;crystal ball;carlin;kazordoon;plains of havoc;thais;ferumbras;witch;evil;man;dwarven bridge;broom;tibianus;tibia;hunter;orange;witches;fly on broomsticks;coffin;health;giant spider;black knight;mother;voodoo;granny weatherwax;nanny ogg;platform" />
+        <parameter key="keyword_reply1" value="I think {witches} these days are underpaid. Who needs a {witch} anyway?" />
+		<parameter key="keyword_reply2" value="I believe that {nature} itself is God." />
+		<parameter key="keyword_reply3" value="There are many swamp {plants}, {mushrooms}, and {herbs} around here." />
+		<parameter key="keyword_reply4" value="There are many kinds of swamp plants, some can be used for {potions}, some not." />
+		<parameter key="keyword_reply5" value="Mushrooms taste good and are useful for {potions}." />
+		<parameter key="keyword_reply6" value="The swamp is home to a wide variety of herbs, but the most famous is the {blood herb}." />
+		<parameter key="keyword_reply7" value="The {blood herb} is very rare. This plant would be very useful for me, but I don't know any accessible places to find it." />
+		<parameter key="keyword_reply8" value="The recipe of the {potions} is one of the witches' secrets!" />
+		<parameter key="keyword_reply9" value="I keep my keys where they belong - in my pocket." />
+		<parameter key="keyword_reply10" value="There are too many royals on this continent if you ask me..." />
+		<parameter key="keyword_reply11" value="The magic of the {witches} is one of our secrets!" />
+		<parameter key="keyword_reply12" value="The magic of the {witches} is one of our secrets!" />
+		<parameter key="keyword_reply13" value="My name is Wyda, and what's yours?" />
+		<parameter key="keyword_reply14" value="The recipe of the potions is one of the witches' secrets!" />
+		<parameter key="keyword_reply15" value="A quest? Well, if you're so keen on doing me a favour... Why don't you try to find a {blood herb}?" />
+		<parameter key="keyword_reply16" value="I think it is the fourth year after {Queen Eloise}'s crowning, but I cannot tell you date or time." />
+		<parameter key="keyword_reply17" value="Eloise is Queen of {Carlin}. I don't care about royals much, as long as they don't try to tax me." />
+		<parameter key="keyword_reply18" value="Be careful of the swamp water, it's poisonous!" />
+		<parameter key="keyword_reply19" value="Druids are mostly fine people. I'm always happy when I meet one." />
+		<parameter key="keyword_reply20" value="Sorcerers have forgotten about the root of all beings: {nature}." />
+		<parameter key="keyword_reply21" value="Knights succumb to the blindness of rage and the desire for violence and blood." />
+		<parameter key="keyword_reply22" value="Paladins can use bows, but not brains." />
+		<parameter key="keyword_reply23" value="Bonelords? Strange creatures that have mysterious magical abilities." />
+		<parameter key="keyword_reply24" value="Many creatures live in, around, and beneath the swamp. Be careful!" />
+		<parameter key="keyword_reply25" value="Many creatures live in, around, and beneath the swamp. Be careful!" />
+		<parameter key="keyword_reply26" value="I bake cookies now and then in my spare time." />
+		<parameter key="keyword_reply27" value="I use a wooden spellwand. Why are you asking?" />
+		<parameter key="keyword_reply28" value="It's a magical item that only witches can use." />
+		<parameter key="keyword_reply29" value="Carlin is a beautiful town, but far from here. Do you live there?" />
+		<parameter key="keyword_reply30" value="Isn't that the name of the little bearded fellows' town?" />
+		<parameter key="keyword_reply31" value="Many tales exist about some so-called Plains of Havoc. It seems to be a dangerous place." />
+		<parameter key="keyword_reply32" value="I've heard stories about that city. It's nowhere near here, that's all I can tell you about it." />
+		<parameter key="keyword_reply33" value="Haha, that's a stupid name. Who's that?" />
+		<parameter key="keyword_reply34" value="Aye, I am a witch." />
+		<parameter key="keyword_reply35" value="Evilness doesn't scare me." />
+		<parameter key="keyword_reply36" value="There are only female {witches}." />
+		<parameter key="keyword_reply37" value="There's a bridge to the west, but it's guarded by dwarfs." />
+		<parameter key="keyword_reply38" value="What about it?" />
+		<parameter key="keyword_reply39" value="Haha, that's a stupid name. Who's that?" />
+		<parameter key="keyword_reply40" value="Tibia is the name of our continent." />
+		<parameter key="keyword_reply41" value="To the east, there is a little settlement of hunters. They are cruel humans who attack everything they see." />
+		<parameter key="keyword_reply42" value="I love exotic fruits. I have oranges imported from the south sometimes, but that's very expensive." />
+		<parameter key="keyword_reply43" value="Some sisters of mine are having a meeting nearby. Don't disturb them, or they will get angry and attack you." />
+		<parameter key="keyword_reply44" value="Haha, no... where did you get that idea? I use it to sweep my {platform}." />
+		<parameter key="keyword_reply45" value="That's none of your business." />
+		<parameter key="keyword_reply46" value="I do not have any {potions} for healing available right now." />
+		<parameter key="keyword_reply47" value="Yes, there is such a thing in the east, on a small island. It's very powerful." />
+		<parameter key="keyword_reply48" value="A black knight? Black is the color of {witches}, why whould any knight carry black?" />
+		<parameter key="keyword_reply49" value="Of course my mother was also a {witch}!" />
+		<parameter key="keyword_reply50" value="I don't practice such nonsense, that's just a rumour." />
+		<parameter key="keyword_reply51" value="I think I've heard that name before..." />
+		<parameter key="keyword_reply52" value="I think I've heard that name before..." />
+		<parameter key="keyword_reply53" value="This platform and house were built by my {mother}, long ago." />
+    </parameters>
+</npc>

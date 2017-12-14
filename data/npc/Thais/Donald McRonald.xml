@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Donald McRonald" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="41" body="94" legs="79" feet="76" addons="0"/>
+    <parameters>
+        
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="cheese,2696,5;beetroot,8845,2;carrot,2684,3;corncob,2686,3;cucumber,8842,3" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

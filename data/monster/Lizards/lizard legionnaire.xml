@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lizard Legionnaire" nameDescription="a lizard legionnaire" race="blood" experience="1100" speed="220" manacost="0">
+<health now="1400" max="1400"/>
+<look type="338" corpse="11267"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="4"/>
+<flag staticattack="90"/>
+<flag runonhealth="150"/>
+</flags>
+<attacks>
+<attack name="melee" interval="2000" skill="50" attack="50"/>
+<attack name="physical" interval="2000" chance="10" range="7" target="1" min="-0" max="-310">
+<attribute key="shootEffect" value="spear"/>
+</attack>
+</attacks>
+	<defenses armor="25" defense="25"/>
+<elements>
+<element firePercent="45"/>
+<element icePercent="-15"/>
+</elements>
+<immunities>
+<immunity earth="1"/>
+<immunity invisible="1"/>
+</immunities>
+<voices interval="5000" chance="10">
+<voice sentence="Tssss!"/>
+</voices>
+<loot>
+    <item id="11329" chance="12050" /><!-- broken halberd -->
+    <item id="11239" chance="2075" /><!-- bunch of ripe rice -->
+    <item id="2148" countmax="100" chance="31650" /><!-- gold coin -->
+    <item id="2148" countmax="65" chance="31650" /><!-- gold coin -->
+    <item id="11317" chance="1250" /><!-- zaoan halberd -->
+    <item id="11328" chance="2000" /><!-- legionnaire flags -->
+    <item id="11200" chance="1000" /><!-- red lantern -->
+    <item id="5881" countmax="3" chance="1300" /><!-- lizard scale -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="7618" chance="550" /><!-- health potion -->
+            <item id="11297" chance="875" /><!-- zaoan shoes -->
+            <item id="2145" countmax="2" chance="1000" /><!-- small diamond -->
+            <item id="11295" chance="550" /><!-- zaoan armor -->
+            <item id="11299" chance="1050" /><!-- drakinata -->
+            <item id="7588" chance="3350" /><!-- strong health potion -->
+            <item id="11330" chance="500" /><!-- lizard trophy -->
+        </inside>
+    </item>
+</loot>
+</monster>

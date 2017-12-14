@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Malunga" script="data/npc/scripts/Malunga.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="149" head="95" body="78" legs="3" feet="2" addons="0"/>
+<voices>
+<voice text="&lt;mumble&gt;" interval2="200" margin="1" yell="no"/>
+</voices>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="h,12401,25;l,12402,10;n,12590,680;s,12430,70;spider fang,8859,10;tail of corruption,12589,240;banshee hair,12363,350;eye of corruption,12588,390;ghoul snack,12384,60;gland,8971,500;lizard essence,12597,300;necromantic robe,12392,250;pelvis bone,12398,30;i,10583,200;i,11212,28;i,10550,15;i,11217,360;i,11360,700;i,11194,55;i,10575,85;i,10599,115;i,10553,500;i,11219,50;i,10584,150;i,11331,250;i,10579,420;i,10557,45;i,10609,10;i,10556,50;i,11202,30;i,10567,25;i,11220,600;i,11192,80;i,10559,100;i,11361,200;i,11322,110;i,11224,800" />
+        <parameter key="message_greet" value="Greetings. I have only little time to {spare}, so the conversation will be short. I teach sorcerer spells and buy a few magical {ingredients}."/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|." />
+		<parameter key="message_sendtrade" value="I'm currently interested in these materials." />
+		<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="spare;academy;researches;education;edron;secrets;civilisation;disaster;cult;quaras;voodoo;ferumbras;thais;venore;king;triangle of terror;raymond striker;pirates" />
+        <parameter key="keyword_reply1" value="I was sent here by the Edron {academy} for scientific {researches}. I am also responsible for the magical {education} of the citizens." />
+		<parameter key="keyword_reply2" value="The academy of {Edron} as a royal institution has several agendas here. Not all of them are to be discussed with outsiders." />
+		<parameter key="keyword_reply3" value="These isles hold more secrets than those that meet the eye. I am convinced that once a great {civilisation} prospered here. Some sort of {disaster} wiped out almost completely any trace of it." />
+		<parameter key="keyword_reply4" value="I teach aspiring sorcerers several spells." />
+		<parameter key="keyword_reply5" value="Edron is a place of learning, magic and {secrets}. But others are dealing with that already in other places. It is my obligation to handle those issues here." />
+		<parameter key="keyword_reply6" value="Magic is not available everywhere at the same strength and intensity. There are areas that are dry like a desert, magically spoken, others are rich of magic. At some places magic flows as strong as if there were springs of magic." />
+		<parameter key="keyword_reply7" value="The little we know about the extinct civilisation hints about a magically advanced race of humanoids, possibly of elven heritage, that once inhabited those isles until the disaster struck." />
+		<parameter key="keyword_reply8" value="The disaster took place at least some centuries ago. Our researches convinced us that the isles here belonged to a single landmass in the past. That should give you an idea of the extent of this catastrophe." />
+		<parameter key="keyword_reply9" value="It would not surprise me much if some superstitious fools mess around with the chaotic magical currents of this isle. Only the gods may know what harm they could do to themselves and others." />
+		<parameter key="keyword_reply10" value="The quara are something that is worth some research. Sadly I lack the time and resources for further investigations." />
+		<parameter key="keyword_reply11" value="The superstition of the natives pushes this kind of hedge magic. It is intolerable that they are fooling around with powers they don't understand." />
+		<parameter key="keyword_reply12" value="I will not discuss this issue now and here. If you have any questions about him, the academy in Edron is the place to ask." />
+		<parameter key="keyword_reply13" value="Well, Thais is not the city it used to be. Too many people, too noisy, too dirty." />
+		<parameter key="keyword_reply14" value="Those haggling and scheming merchants sometimes give me more shivers than a demon. At least you know what to expect from a demon." />
+		<parameter key="keyword_reply15" value="The king's support of the academy is dwindling. I hope results in my researches will change this significantly." />
+		<parameter key="keyword_reply16" value="There seems to be some demonic cabal called Triangle of Terror. We don't know anything about its members except that there are three of them." />
+		<parameter key="keyword_reply17" value="I heard he is one of the more notorious {pirates}." />
+		<parameter key="keyword_reply18" value="Pirates are a constant pest. As long as their existence does not interfere with my researches, I don't care much about them." />
+    </parameters>
+</npc>

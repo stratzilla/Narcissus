@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int i = 0;
+char string = "";
+
+int main() {
+	for(; i <= 100; i++) {
+		if(i % 3 == 0) { strcat(string,"fizz"); }
+		if(i % 5 == 0) { strcat(string,"buzz"); }
+		if(i % 3 != 0 & i % 5 != 0) { strcat(string,i); }
+		strcat(string,"\n");
+	}
+	printf("%c",string);
+}

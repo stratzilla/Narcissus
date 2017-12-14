@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<npc name="Nilsor" script="default.lua" walkinterval="2000">
+  <health now="200" max="200" />
+<look type="154" head="41" body="116" legs="95" feet="114" addons="0"/>
+  
+</npc>

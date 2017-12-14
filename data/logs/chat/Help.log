@@ -1,0 +1,53 @@
+[28/01/2013 20:48:23] GM Patrick: hi
+[28/01/2013 20:48:25] GM Patrick: test
+[2/2/2013 18:32:32] Flavin: poop
+[2/2/2013 18:32:33] Rob: test
+[2/2/2013 18:32:36] Rob: l'orange
+[2/2/2013 18:32:42] Rob: probably green for you right?
+[17/2/2013 14:11:28] Null: wait
+[17/2/2013 23:12:14] Null: 1
+[17/2/2013 23:12:15] Null: asdfasdf
+[17/2/2013 23:12:15] Null: asdf
+[17/2/2013 23:12:16] Null: df
+[23/2/2013 20:45:6] Renix: what is the command to change gold...I'm saying change and change 100....to the banker in Thais also how do you deposit gold...
+[23/2/2013 20:46:0] Flavin: to change your gold just "use" it
+[23/2/2013 20:46:11] Flavin: if you "use" 100 gold, it becomes 1 platinum
+[23/2/2013 20:46:19] Flavin: if you use 100 platinum, it becomes 1 crystal
+[23/2/2013 20:46:26] Renix: well that's real friggin' neato
+[23/2/2013 20:46:40] Flavin: if you use < 100 platinum or crystal, 1 of them will become 100 of the lower denomination
+[23/2/2013 20:47:10] Renix: ok, crap like that...do you have to write a script for that or something?
+[23/2/2013 20:47:58] Flavin: function onUse(cid, item, fromPosition, itemEx, toPosition)
+[23/2/2013 20:48:2] Flavin: if item.itemid == ITEM_GOLD_COIN and item.type == ITEMCOUNT_MAX then
+[23/2/2013 20:48:6] Flavin: doChangeTypeItem(item.uid, item.type - item.type)
+[23/2/2013 20:48:10] Flavin: doPlayerAddItem(cid, ITEM_PLATINUM_COIN, 1)
+[23/2/2013 20:48:21] Flavin: elseif item.itemid == ITEM_PLATINUM_COIN and item.type == ITEMCOUNT_MAX then
+[23/2/2013 20:48:24] Flavin: doChangeTypeItem(item.uid, item.type - item.type)
+[23/2/2013 20:48:27] Flavin: doPlayerAddItem(cid, ITEM_CRYSTAL_COIN, 1)
+[23/2/2013 20:48:30] Flavin: elseif item.itemid == ITEM_PLATINUM_COIN and item.type < ITEMCOUNT_MAX then
+[23/2/2013 20:48:33] Flavin: doChangeTypeItem(item.uid, item.type - 1)
+[23/2/2013 20:48:36] Flavin: doPlayerAddItem(cid, ITEM_GOLD_COIN, ITEMCOUNT_MAX)
+[23/2/2013 20:48:39] Flavin: elseif item.itemid == ITEM_CRYSTAL_COIN then
+[23/2/2013 20:48:44] Flavin: doChangeTypeItem(item.uid, item.type - 1)
+[23/2/2013 20:48:48] Flavin: doPlayerAddItem(cid, ITEM_PLATINUM_COIN, ITEMCOUNT_MAX)
+[23/2/2013 20:48:50] Flavin: else
+[23/2/2013 20:48:54] Flavin: return FALSE
+[23/2/2013 20:48:57] Flavin: end
+[23/2/2013 20:49:0] Flavin: return TRUE
+[23/2/2013 20:49:1] Flavin: end
+[23/2/2013 20:49:2] Renix: I get it, oddly I can read it but have no idea what it's written in
+[23/2/2013 20:49:11] Flavin: lua, it's very readable and easily editable
+[23/2/2013 20:49:43] Renix: oh
+[23/2/2013 21:3:40] Renix: How do you get spells for a summoner?
+[23/2/2013 21:3:44] Renix: I mean Sorc
+[23/2/2013 21:3:56] Flavin: you have all your spells, you just need enough mana to use them and then you can
+[23/2/2013 21:4:50] Renix: is a lot of this explained on the website? I'd rather not bother you if I don't have to
+[23/2/2013 22:1:54] Renix: dunno if it's just me but it seems as if I can't rope bags up ladders
+[23/2/2013 22:5:4] Flavin: try again
+[23/2/2013 22:35:20] Renix: The purple fire/telport thing outside of the house south of Thais, part of "The Scatterbrained Sorcerer Quest" isn't working.
+[23/2/2013 23:31:52] Renix: Think I found another bug, NPC'S don't drop your gold/change on the ground if your capacity is too high, it'll give you the item, but not your change
+[23/2/2013 23:36:6] Renix: if you need help testing stuff don't be afraid to ask me
+[23/2/2013 23:37:31] Flavin: ok
+[23/2/2013 23:55:0] Renix: / pos saying 'deposit' to the potion shop NPC in Edron doesn't do anything when it should return some gold and I think a small chance of a lotttery ticket.  
+[24/2/2013 0:10:46] Renix: I heard we need to get a hold of Admins if we want to buy a house, is the correct?
+[24/2/2013 7:5:35] Flavin: wow great map bug
+[24/2/2013 14:50:19] Renix: I do have a loot bag on the ground but I'm having an issue where I can't rope it up a ladder again

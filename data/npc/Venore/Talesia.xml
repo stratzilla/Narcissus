@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Talesia" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="138" head="114" body="78" legs="77" feet="116" addons="0"/>
+    
+</npc>

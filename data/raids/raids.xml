@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<raids>
+		<raid name="Thais Orc Uprising" file="thaisorcs.xml" interval2="600" margin="600" enabled="yes"/>
+	</raids>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ustan" script="data/npc/scripts/addons/druid.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="144" head="0" body="24" legs="13" feet="76" addons="1"/>
+ <parameters>
+        
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_sellable" value="bear paw,5896,100;wolf paw,5897,70;wolf tooth chain,5940,100" />
+    </parameters>
+</npc>

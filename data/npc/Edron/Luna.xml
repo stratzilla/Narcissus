@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Luna" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="137" head="0" body="118" legs="100" feet="115" addons="2"/>
+	<parameters>
+        
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="star herb,2800,21;fern,2801,24;stone herb,4838,28;white mushroom,2787,6;brown mushroom,2789,10;red mushroom,2788,12;tulip,2754,9;red rose,2744,11" />
+        <parameter key="shop_sellable" value="" />
+    
+    </parameters>
+</npc>
+
+

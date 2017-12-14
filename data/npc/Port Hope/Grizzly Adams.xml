@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Grizzly Adams" script="default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="144" head="113" body="115" legs="58" feet="115" addons="1"/>
+    <parameters>
+        
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="demon backpack,5896,10000" />
+        <parameter key="shop_sellable" value="cyclops trophy,7398,500;minotaur trophy,7401,500;deer trophy,7397,3000;lion trophy,7400,3000;wolf trophy,7394,10;demon trophy,7393,40000;behemoth trophy,7396,20000;dragon lord trophy,7399,10000" />
+    </parameters>
+</npc>

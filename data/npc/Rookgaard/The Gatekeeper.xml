@@ -1,0 +1,8 @@
+<npc name="The Gatekeeper" script="premmyoracle.lua" walkinterval="0" floorchange="0">
+    <health now="150" max="150"/>
+    <look typeex="10349" corpse="3128"/>
+    <parameters>
+ 
+    </parameters>
+</npc>
+

@@ -1,0 +1,49 @@
+----- 8/2/2013 22:18:56 - Flavin (99.249.205.61) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 64 Bit in CAN
+Processor: Intel Core i7 920 @ 2.6
+Video Card: NVIDIA GeForce GTX 460
+Last Packet Types: 109 180 030 131 106 180 108 131 131 104
+Last Packet: 180 019 002 000 047 097 109 073 126 221 125 007 002 072 126 221
+Player Position: [32329,32221,7]
+Player Name: Flavin (Level: 30 Voc: S)
+Player Action: 049 055 051 046 050 051 056 046 050 048 056 046 056 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 40026072), reason:
+Communication.cpp 2151: exception occurred, reason:
+Communication.cpp 2142: MoveCreature has been received for a coordinate where there is no creature anymore [bug0000017] (100, 0), reason:
+ sx: 8 sy: 6 sz: 0
+ Position: 2
+ zx: 7 zy: 6 zz: 0
+ dx: -1 dy: 0 dz: 0
+ abs_sx: 32329 abs_sy: 32221 abs_sz: 7
+ abs_zx: 32328 abs_zy: 32221 abs_zz: 7
+ Start Cylinder (1):  (429,0) (1281,0) (100,0) (99,268475010)
+ Start Cylinder (2):  (429,0) (1281,0) (100,0) (99,268475010)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (429,0)
+ Destination Cylinder (2):  (429,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+Fri Feb 08 22:18:45 2013
+Debug Assertion 8.60 Communication.cpp 2142
+
+----- 17/2/2013 20:57:12 - Flavin (99.249.205.61) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 64 Bit in CAN
+Processor: Intel Core i7 920 @ 2.6
+Video Card: NVIDIA GeForce GTX 460
+Last Packet Types: 131 100 108 131 100 108 131 100 108 131
+Last Packet: 108 015 129 182 121 007 003 100 015 129 168 121 007 129 038 000
+Player Position: [33039,31144,7]
+Player Name: Flavin (Level: 120 Voc: )
+Player Action: 049 055 051 046 050 051 056 046 050 048 056 046 056 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = -1) (MainWindow = 53422160), reason:
+Network.cpp 445: exception occurred, reason:
+Network.cpp 432: exception occurred, reason:
+Network.cpp 398: packet size does not fit to symmetric encryption (PacketSize = 16365)
+Sun Feb 17 20:55:34 2013
+Debug Assertion 8.60 Network.cpp 398
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lynda" script="data/npc/scripts/addons/lynda.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="138" head="79" body="83" legs="86" feet="114" addons="0"/>
+    <parameters>
+        <parameter key="message_greet" value="Welcome, |PLAYERNAME|. I'm looking for a people who want to {marriage} with you."/>
+        <parameter key="message_farewell" value="Good bye."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;" />
+        <parameter key="keyword_reply1" value="Im marriage people around on Tibia." />
+
+       
+    </parameters>
+</npc>

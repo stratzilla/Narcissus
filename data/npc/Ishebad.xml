@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ishebad" script="data/npc/scripts/Ishebad.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="65" head="0" body="0" legs="0" feet="0" addons="0"/>
+<parameters>
+	<parameter key="message_greet" value="Be mourned, pilgrim in flesh. Are you looking for a {promotion}?"/>
+	<parameter key="message_farewell" value="Good bye, |PLAYERNAME|"/>
+	<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|" />
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="job;arkhothep;pharaoh;scarab;darama;darashia;carlin;venore;kazordoon;ab'dendriel;tibia;ankrahmun;undead;time;name;ank;rah;uthun;ascension" />
+    <parameter key="keyword_reply1" value="The pharaoh wants not to be disturbed. I am his grand vizier and responsible for the daily affairs of the city and {promotions} of heroes." />
+	<parameter key="keyword_reply2" value="The pharaoh wants not to be disturbed. I am his grand vizier and responsible for the daily affairs of the city and {promotions} of heroes." />
+	<parameter key="keyword_reply3" value="Our immortal ruler, may he be blessed, is the keeper of our enlightenment and our saviour." />
+	<parameter key="keyword_reply4" value="The scarabs are keepers of secrets. Some secrets are not meant for you mortals. Ever keep that in mind." />
+	<parameter key="keyword_reply5" value="The rule of our beloved {pharaoh} will soon spread this continent and one day the whole known world." />
+	<parameter key="keyword_reply6" value="This village is so insignificant that our wise {pharaoh} has choosen to ignore it." />
+	<parameter key="keyword_reply7" value="Other cities are of no importance. {Ankrahmun} will become the center of the known world anyways." />
+	<parameter key="keyword_reply8" value="Other cities are of no importance. {Ankrahmun} will become the center of the known world anyways." />
+	<parameter key="keyword_reply9" value="Other cities are of no importance. {Ankrahmun} will become the center of the known world anyways." />
+	<parameter key="keyword_reply10" value="Other cities are of no importance. {Ankrahmun} will become the center of the known world anyways." />
+	<parameter key="keyword_reply11" value="This world just awaits the wisdom of our {pharaoh}. It needs that wisdom and will soon learn to appreciate it." />
+	<parameter key="keyword_reply12" value="Our city will become the capital of a worldwide empire." />
+	<parameter key="keyword_reply13" value="Undeath is only for the choosen." />
+	<parameter key="keyword_reply14" value="Time does not matter to the {undead}." />
+	<parameter key="keyword_reply15" value="I am Ishebad the chosen." />
+	<parameter key="keyword_reply16" value="Consult a priest to learn how you could achieve ascension." />
+	<parameter key="keyword_reply17" value="Consult a priest to learn how you could achieve ascension." />
+	<parameter key="keyword_reply18" value="Consult a priest to learn how you could achieve ascension." />
+	<parameter key="keyword_reply19" value="Consult a priest to learn how you could achieve ascension." />
+</parameters>
+</npc>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lizard High Guard" nameDescription="a lizard high guard" race="blood" experience="1450" speed="340" manacost="0">
+<health now="1800" max="1800"/>
+<look type="337" corpse="11266"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="0"/>
+</flags>
+<attacks>
+<attack name="melee" interval="2000" skill="90" attack="50"/>
+<attack name="poison" interval="2000" chance="20" range="1" target="1" min="-60" max="-120">
+<attribute key="shootEffect" value="poison"/>
+<attribute key="areaEffect" value="poison"/>
+</attack>
+</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="2000" chance="10" min="160" max="200">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+<elements>
+<element icePercent="-10"/>
+<element firePercent="45"/>
+</elements>
+<immunities>
+<immunity earth="1"/>
+<immunity invisible="1"/>
+</immunities>
+<voices interval="5000" chance="10">
+<voice sentence="Hizzzzzzz!"/>
+<voice sentence="To armzzzz!"/>
+<voice sentence="Engage zze aggrezzor!"/>
+</voices>
+<loot>
+    <item id="11319" chance="6000" /><!-- spiked iron ball -->
+    <item id="5881" countmax="3" chance="1300" /><!-- lizard scale -->
+    <item id="7591" chance="5800" /><!-- great health potion -->
+    <item id="2148" countmax="100" chance="27100" /><!-- gold coin -->
+    <item id="2148" countmax="100" chance="27100" /><!-- gold coin -->
+    <item id="2148" countmax="27" chance="27100" /><!-- gold coin -->
+    <item id="11326" chance="2775" /><!-- high guard flag -->
+    <item id="11200" chance="1425" /><!-- red lantern -->
+    <item id="2149" countmax="4" chance="1675" /><!-- small emerald -->
+    <item id="11297" chance="1100" /><!-- zaoan shoes -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="11239" chance="4250" /><!-- bunch of ripe rice -->
+            <item id="11298" chance="1050" /><!-- zaoan legs -->
+            <item id="11295" chance="550" /><!-- zaoan armor -->
+            <item id="2528" chance="1250" /><!-- tower shield -->
+            <item id="7588" chance="9325" /><!-- strong health potion -->
+            <item id="2152" countmax="2" chance="3350" /><!-- platinum coin -->
+        </inside>
+    </item>
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</monster>

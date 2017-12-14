@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="H.L." script="data/npc/scripts/H.L..lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="131" head="12" body="76" legs="0" feet="95" addons="0"/>
+    <parameters>
+	    <parameter key="message_greet" value="Welcome to my shop, adventurer |PLAYERNAME|! I {trade} with weapons and armor."/>
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_sellable" value="axe,2386,6;battle axe,2378,40;battle hammer,2417,40;battle shield,2513,50;brass armor,2465,50;chain armor,2464,30;chain helmet,2458,4;dagger,2379,1;halberd,2381,50;hand axe,2380,5;leather armor,2467,2;leather helmet,2461,1;mace,2398,8;morning star,2394,50;plate armor,2463,110;rapier,2384,5;sabre,2385,6;scale armor,2483,75;short sword,2406,3;spear,2389,2;steel helmet,2457,60;steel shield,2509,30;sword,2376,7;two handed sword,2377,60;wooden shield,2512,1;" />
+    </parameters>
+</npc>

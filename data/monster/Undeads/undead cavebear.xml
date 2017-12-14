@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Undead Cavebear" nameDescription="an undead cavebear" race="undead" experience="600" speed="320" manacost="0">
+	<health now="450" max="450"/>
+	<look type="99" head="95" body="116" legs="119" feet="115" corpse="6028"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="40" attack="60"/>
+		<attack name="physical" interval="2000" chance="20" range="7" target="1" min="-70" max="-130">
+			<attribute key="shootEffect" value="suddendeath" /> 
+			<attribute key="areaEffect" value="mortarea" /> 
+		</attack>
+		<attack name="physical" interval="2000" chance="20" radius="3" target="0" max="-160">
+			<attribute key="areaEffect" value="mortarea" /> 
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="20"/>
+	</defenses>
+	<elements>
+		<element holyPercent="-1"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity death="1"/>
+		<immunity earth="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="10">
+		<voice sentence="Grrrrrrrrrr"/>
+	<loot>
+            <item id="2148" countmax="75" chance="17275" /><!-- gold coin -->
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</monster>

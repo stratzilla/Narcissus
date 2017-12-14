@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Skjaar" script="data/npc/scripts/Skjaar.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="9" head="0" body="0" legs="0" feet="0" addons="0"/>
+<parameters>
+<parameter key="message_greet" value="Another creature who believes thinks physical strength is more important than wisdom! Why are you disturbing me?"/>
+<parameter key="message_farewell" value="Farewell, |PLAYERNAME|"/>
+<parameter key="message_walkaway" value="Farewell, |PLAYERNAME|" />
+<parameter key="module_keywords" value="1" />
+<parameter key="keywords" value="door;job;crypt;master;time;castle;volcano" />
+<parameter key="keyword_reply1" value="This door seals a {crypt}." />
+<parameter key="keyword_reply2" value="Once I was the master of all mages, but now I only protect this {crypt}." />
+<parameter key="keyword_reply3" value="Here lies my {master}. Only his closest followers may enter." />
+<parameter key="keyword_reply4" value="If you are one of his followers, you need not ask about him, for you will know. And if you aren't, you are not worthy anyway!" />
+<parameter key="keyword_reply5" value="To those who have lived for a thousand years time holds no more terror." />
+<parameter key="keyword_reply6" value="The castle was destroyed when my {master} tried to summon a nameless creature. All that is left is this {volcano}." />
+<parameter key="keyword_reply7" value="I can still feel the magical energy in the volcano." />
+</parameters>
+</npc>

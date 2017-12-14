@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Bonifacius" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="59" body="82" legs="58" feet="95" addons="0"/>
+    <parameters>
+        
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="meat,2666,4;salmon,2668,4;orange,2675,5;banana,2676,2;grapes,2681,3;melon,2682,8;pumpkin,2683,10;roll,2690,2;egg,2695,2;cheese,2696,5" />
+        <parameter key="shop_sellable" value="" />
+    
+    </parameters>
+</npc>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Hoaxette" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="273" head="97" body="81" legs="79" feet="98" addons="1"/>
+    
+</npc>

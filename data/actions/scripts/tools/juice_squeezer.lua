@@ -1,0 +1,13 @@
+local FRUIT = {2673, 2674, 2675, 2676, 2677, 2678, 2679, 2680, 2681, 2682, 2684, 2685, 5097, 8839, 8840, 8841}
+ 
+function onUse(cid, item, fromPosition, itemEx, toPosition)
+	if isInArray(FRUIT, itemEx.itemid) and doPlayerRemoveItem(cid, 2006, 1) then
+		doRemoveItem(itemEx.uid, 1)
+		doPlayerAddItem(cid, 2006, itemEx.itemid == 2678 and 14 or 21)
+		return true
+	elseif table.find({0x7c3,0x7c4}, itemEx.itemid) then
+		doRemoveItem(itemEx.uid, 1)
+		doRemoveItem(item.uid, 1)
+		return true
+	end
+end

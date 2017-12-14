@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hero" nameDescription="a hero" race="blood" experience="1200" speed="280" manacost="0">
+	<health now="1400" max="1400"/>
+	<look type="73" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="70" attack="60"/>
+		<attack name="physical" interval="2000" chance="25" range="7" min="-0" max="-120">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="20">
+		<defense name="healing" interval="2000" chance="20" min="100" max="200">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="40"/>
+		<element icePercent="10"/>
+		<element firePercent="30"/>
+		<element holyPercent="50"/>
+		<element earthPercent="50"/>
+		<element physicalPercent="10"/>
+		<element deathPercent="-20"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Let's have a fight!"/>
+		<voice sentence="Welcome to my battleground."/>
+		<voice sentence="Have you seen princess Lumelia?"/>
+		<voice sentence="I will sing a tune at your grave."/>
+	</voices>
+	<loot>
+    <item id="2071" chance="8050" /><!-- lyre -->
+    <item id="2114" chance="600" /><!-- piggy bank -->
+    <item id="2519" chance="650" /><!-- crown shield -->
+    <item id="2392" chance="875" /><!-- fire sword -->
+    <item id="2488" chance="1025" /><!-- crown legs -->
+    <item id="2121" chance="4825" /><!-- wedding ring -->
+    <item id="2491" chance="925" /><!-- crown helmet -->
+    <item id="2661" chance="6050" /><!-- scarf -->
+    <item id="5911" countmax="3" chance="2275" /><!-- red piece of cloth -->
+    <item id="2164" chance="1350" /><!-- might ring -->
+    <item id="2391" chance="1350" /><!-- war hammer -->
+    <item id="7591" chance="1050" /><!-- great health potion -->
+    <item id="2487" chance="1125" /><!-- crown armor -->
+    <item id="2456" chance="12175" /><!-- bow -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="2544" countmax="13" chance="14050" /><!-- arrow -->
+            <item id="2652" chance="7075" /><!-- green tunic -->
+            <item id="2681" chance="17800" /><!-- grapes -->
+            <item id="1949" chance="41300" /><!-- scroll -->
+            <item id="2120" chance="10950" /><!-- rope -->
+            <item id="7364" countmax="4" chance="7025" /><!-- sniper arrow -->
+            <item id="2377" chance="1675" /><!-- two handed sword -->
+            <item id="2744" chance="18250" /><!-- red rose -->
+            <item id="2666" chance="11500" /><!-- meat -->
+            <item id="2148" countmax="100" chance="28400" /><!-- gold coin -->
+            <item id="12427" chance="2725" /><!-- scroll of heroic deeds -->
+            <item id="12367" chance="925" /><!-- small notebook -->
+        </inside>
+    </item>
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</monster>

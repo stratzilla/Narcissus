@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<npc name="Ariella" script="data/npc/scripts/addons/pirate2.lua" walkinterval="2000">
+  <health now="200" max="200" />
+<look type="155" head="95" body="3" legs="22" feet="114" addons="2"/>
+  <parameters>
+        
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="meat,2666,5;ham,2671,8;red apple,2674,5;orange,2675,10;banana,2676,5;blueberry,2672,1;strawberry,2680,2;melon,2682,10;pumpkin,2683,10;cheese,2696,6;mango,5097,10;valentine cake,6393,10" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

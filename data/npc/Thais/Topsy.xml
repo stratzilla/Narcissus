@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Topsy" script="bpruneshop.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="139" head="78" body="52" legs="64" feet="115" addons="0"/>
+    <parameters>
+        <parameter key="message_greet" value="Hello, dear |PLAYERNAME|. How can I help you? If you need magical equipment such as runes or wands, just ask me for a {trade}. For backpack of runes just say BUY BP SD ETC."/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|. Do come again!"/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;" />
+        <parameter key="keyword_reply1" value="I sell runes as well as spirit, health and mana potions - your best friends in any dungeon!" />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="blank rune,2260,10;spellbook,6120,150;strong health potion,7588,100;strong mana potion,7589,80;great mana potion,7590,120;great health potion,7591,190;health potion,7618,45;mana potion,7620,50;great spirit potion,8472,190;ultimate health potion,8473,310;terra rod,2181,10000;snakebite rod,2182,500;necrotic rod,2185,5000;moonlight rod,2186,1000;wand of decay,2188,5000;wand of cosmic energy,2189,10000;wand of vortex,2190,500;wand of dragonbreath,2191,1000;" />
+        <parameter key="shop_sellable" value="empty potion flask,7634,5;empty potion flask,7635,5;empty potion flask,7636,5;vial,2006,5;" />
+    </parameters>
+</npc>

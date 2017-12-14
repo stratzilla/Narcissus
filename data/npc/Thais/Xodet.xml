@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Xodet" script="bpruneshop.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="130" head="19" body="86" legs="87" feet="95" addons="0"/>
+    <parameters>
+        <parameter key="message_greet" value="Oh, please come in, |PLAYERNAME|. If you need magical equipment such as runes or wands, just ask me for a {trade}. For backpack of runes just say {BUY BP SD} ETC"/>
+        <parameter key="message_farewell" value="Good bye and come again."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;" />
+        <parameter key="keyword_reply1" value="I'm sorcerer and trade with all kinds of magic items." />
+        
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="terra rod,2181,10000;snakebite rod,2182,500;necrotic rod,2185,5000;moonlight rod,2186,1000;wand of decay,2188,5000;wand of cosmic energy,2189,10000;wand of vortex,2190,500;wand of dragonbreath,2191,1000;blank rune,2260,10;spellbook,6120,150" />
+        <parameter key="shop_sellable" value="empty potion flask,7634,5;empty potion flask,7635,5;empty potion flask,7636,5;vial,2006,5" />
+    
+</parameters>
+
+</npc>
+
+
+

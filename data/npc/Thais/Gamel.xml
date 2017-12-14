@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gamel" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="129" head="79" body="132" legs="115" feet="116" addons="0"/>
+    <parameters>
+        
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="brass helmet,2460,12;dagger,2379,5;mace,2398,90;staff,2401,40;throwing knife,2410,25" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

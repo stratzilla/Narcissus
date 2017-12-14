@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Elathriel" script="data/npc/scripts/Elathriel.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="64" head="0" body="0" legs="0" feet="0" addons="0"/>
+<parameters>
+        <parameter key="message_greet" value="Be greeted |PLAYERNAME|."/>
+        <parameter key="message_farewell" value="Asha Thrazi, stranger."/>
+		<parameter key="message_walkaway" value="Asha Thrazi, stranger." />
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="elves;cenath;teshial;deraisim;kurdai;army;door;hellgate;king;magic;name;tibianus;eloise;time;druids;sorcerers;dwarfs;trolls;excalibug;ferumbras" />
+        <parameter key="keyword_reply1" value="My people are divided in castes in these times, until they comprehend that only the way of the {Kuridai} can save us all." />
+		<parameter key="keyword_reply2" value="Arrogant bastards, but they wield quite powerful magics." />
+		<parameter key="keyword_reply3" value="Dreamers are of no practical use. I don't mourn their demise." />
+		<parameter key="keyword_reply4" value="Confused cowards. With all their skill they still tend to hide and run. What a waste." />
+		<parameter key="keyword_reply5" value="We are the heart of the elven society. We forge, we build, and we don't allow our people to be pushed around." />
+		<parameter key="keyword_reply6" value="It's one of the more useful concepts we can learn from the other races." />
+		<parameter key="keyword_reply7" value="For safety we keep the door to the {hellgate} locked all times. I have the keys to open it when needed." />
+		<parameter key="keyword_reply8" value="It was here among other structures, like the depot tower, before our people came here. It's secured by a sealed {door}." />
+		<parameter key="keyword_reply9" value="It's hard for some of my people to grasp the true concept of a strong leader." />
+		<parameter key="keyword_reply10" value="I mastered some spells of battle." />
+		<parameter key="keyword_reply11" value="Not that I like to talk to you, but I am Elathriel Shadowslayer." />
+		<parameter key="keyword_reply12" value="A human weakling, not much more." />
+		<parameter key="keyword_reply13" value="A human weakling, not much more." />
+		<parameter key="keyword_reply14" value="I couldn't care less." />
+		<parameter key="keyword_reply15" value="Druids' magic is to peaceful for my taste." />
+		<parameter key="keyword_reply16" value="I have seen human sorcerers doing some impressive things ... before they died." />
+		<parameter key="keyword_reply17" value="We might use the shelter earth and hills provide us, but their obsession for metal is a waste of time." />
+		<parameter key="keyword_reply18" value="Like all inferior races they can be at least used for something good. The other castes are just jealous about our use of them." />
+		<parameter key="keyword_reply19" value="I still doubt it exists." />
+		<parameter key="keyword_reply20" value="Even if he'd walk through the town above the other castes won't see the necessity to follow OUR way." />
+    </parameters>
+</npc>

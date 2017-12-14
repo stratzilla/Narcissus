@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<npc name="Elane" script="data/npc/scripts/addons/hunter.lua" walkinterval="2000">
+
+  <health now="200" max="200" />
+<look type="137" head="113" body="63" legs="120" feet="119" addons="3"/>
+  <parameters>
+    <parameter key="message_greet" value="Hi, |PLAYERNAME|! What can I do for you?" />
+  <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="sniper gloves,5875,2000" />
+    </parameters>
+</npc>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Frans" script="bpruneshop.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look typeex="2229" head="113" body="113" legs="113" feet="115" addons="0"/>
+    <parameters>
+        <parameter key="message_greet" value="Beeee Greeeeted |PLAYERNAME|. What is your neeeed?"/>
+        <parameter key="message_farewell" value="Bye."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;" />
+        <parameter key="keyword_reply1" value="I am selliiiing ruuuunes, wands, roooods and spellbooooooks." />
+    <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="terra rod,2181,10000;snakebite rod,2182,500;necrotic rod,2185,5000;moonlight rod,2186,1000;wand of decay,2188,5000;wand of cosmic energy,2189,10000;wand of vortex,2190,500;wand of dragonbreath,2191,1000;blank rune,2260,10;spellbook,6120,150" />
+        <parameter key="shop_sellable" value="" />
+    
+</parameters>
+
+</npc>

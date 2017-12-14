@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Simon the Beggar" script="data/npc/scripts/Simon the Beggar.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="153" head="116" body="123" legs="32" feet="40" addons="3"/>
+<voices>
+<voice text="Alms! Alms for the poor!" interval2="200" margin="1" yell="no"/>
+<voice text="Sir, Ma'am, have a gold coin to spare?" interval2="150" margin="1" yell="no"/>
+<voice text="I need help! Please help me!" interval2="150" margin="1" yell="no"/>
+</voices>
+<parameters>
+       <parameter key="message_greet" value="Hello |PLAYERNAME|. I am a poor man. Please {help} me."/>
+        <parameter key="message_farewell" value="Have a nice day."/>
+		<parameter key="message_walkaway" value="Have a nice day." />
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;simon;job;beggar;gold;tibia;dermot;village;fibula;dungeon;timur;jetty;ship" />
+        <parameter key="keyword_reply1" value="My name is {Simon}. I am a very poor man." />
+		<parameter key="keyword_reply2" value="I am Simon. The poorest human all over the continent." />
+		<parameter key="keyword_reply3" value="I have no job. I am a {beggar}." />
+		<parameter key="keyword_reply4" value="I have no {gold} and no {job}, so I am a beggar." />
+		<parameter key="keyword_reply5" value="I need gold. I love gold. I need {help}." />
+		<parameter key="keyword_reply6" value="Hehe, do you have a {shovel}? I can sell you a {shovel} if you want to return to Tibia." />
+		<parameter key="keyword_reply7" value="The magistrate of the {village}. I heard he is selling something for the {Fibula Dungeon}." />
+		<parameter key="keyword_reply8" value="To the north is the village {Fibula}. A very small village." />
+		<parameter key="keyword_reply9" value="I hate Fibula. Too many wolves are here." />
+		<parameter key="keyword_reply10" value="I heard a lot about the {Fibula} Dungeon. But I never was there." />
+		<parameter key="keyword_reply11" value="I hate Timur. He is too expensive. But sometimes I find maces and hatchets. Timur is buying these items." />
+		<parameter key="keyword_reply12" value="I hate this jetty. I have never seen a {ship} here." />
+		<parameter key="keyword_reply13" value="There is a large sea-monster outside. I think there is no gritty captain to sail in this quarter." />
+    </parameters>
+</npc>

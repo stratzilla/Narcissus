@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="King Tibianus" script="data/npc/scripts/King Tibianus.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="332" head="21" body="87" legs="107" feet="95" addons="0"/>
+<parameters>
+       <parameter key="message_greet" value="I greet thee, my loyal subject |PLAYERNAME|."/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|"/>
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|" />
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="how are you;good;name;enemies;gods;job;king;mission;quest;sell;tbi;tibia;time;noodles;treasure;castle;dungeon;druids;sorcerers;paladins;knights;heroes;monsters;excalibug;ferumbras;order;zathroth;carlin;eremo;thais;sewers;shops;guilds;merchants;harkath bloodblade;general;arma;evil;minotaurs;taxes;royal tax collector;reward;benjamin;bozo;chester;elane;frodo;gorn;gregor;muriel;sam" />
+        <parameter key="keyword_reply1" value="Thank you, I'm fine." />
+		<parameter key="keyword_reply2" value="The forces of good are hard pressed in these dark times." />
+		<parameter key="keyword_reply3" value="Preposterous! You must know the name of your own king!" />
+		<parameter key="keyword_reply4" value="Our enemies are numerous. The evil {minotaurs}, {Ferumbras}, and the renegade city of {Carlin} to the north are just some of them." />
+		<parameter key="keyword_reply5" value="Honor the gods and pay your {taxes}." />
+		<parameter key="keyword_reply6" value="I am your sovereign, King Tibianus III, and its my duty to provide justice and guidance for my subjects." />
+		<parameter key="keyword_reply7" value="I am the king, so mind your words!" />
+		<parameter key="keyword_reply8" value="I will call for heroes as soon as the need arises again and then reward them appropriately." />
+		<parameter key="keyword_reply9" value="I will call for heroes as soon as the need arises again and then reward them appropriately." />
+		<parameter key="keyword_reply10" value="Sell? Sell what? My kingdom isn't for sale!" />
+		<parameter key="keyword_reply11" value="This organisation is important in holding our enemies in check. Its headquarter is located in the bastion in the northwall." />
+		<parameter key="keyword_reply12" value="Soon the whole land will be ruled by me once again!" />
+		<parameter key="keyword_reply13" value="It's a time for heroes, that's for sure!" />
+		<parameter key="keyword_reply14" value="The royal poodle Noodles is my greatest treasure!" />
+		<parameter key="keyword_reply15" value="The royal poodle Noodles is my greatest treasure!" />
+		<parameter key="keyword_reply16" value="Rain Castle is my home." />
+		<parameter key="keyword_reply17" value="Dungeons are no places for kings." />
+		<parameter key="keyword_reply18" value="We need the druidic healing powers to fight evil." />
+		<parameter key="keyword_reply19" value="The magic of the sorcerers is a powerful tool to smite our {enemies}." />
+		<parameter key="keyword_reply20" value="The paladins are great protectors for {Thais}." />
+		<parameter key="keyword_reply21" value="The brave knights are necessary for human survival in {Thais}." />
+		<parameter key="keyword_reply22" value="It's a time for heroes, that's for sure!" />
+		<parameter key="keyword_reply23" value="Go and hunt them! For king and country!" />
+		<parameter key="keyword_reply24" value="It's the sword of the kings. If you could return this weapon to me I would reward you beyond your dreams." />
+		<parameter key="keyword_reply25" value="He is a follower of the evil god {Zathroth} and responsible for many attacks on us. Kill him on sight!" />
+		<parameter key="keyword_reply26" value="We need order to survive!" />
+		<parameter key="keyword_reply27" value="Please ask a priest about the {gods}." />
+		<parameter key="keyword_reply28" value="They dare to reject my reign over the whole continent!" />
+		<parameter key="keyword_reply29" value="It is said that he lives on a small island near Edron. Maybe the people there know more about him." />
+		<parameter key="keyword_reply30" value="Our beloved city has some fine shops, guildhouses, and a modern {system} of sewers." />
+		<parameter key="keyword_reply31" value="What a disgusting topic!" />
+		<parameter key="keyword_reply32" value="Visit the shops of our merchants and craftsmen." />
+		<parameter key="keyword_reply33" value="The four major guilds are the knights, the paladins, the druids, and the sorcerers." />
+		<parameter key="keyword_reply34" value="Ask around about them." />
+		<parameter key="keyword_reply35" value="Harkath Bloodblade is the general of our glorious army." />
+		<parameter key="keyword_reply36" value="{Harkath Bloodblade} is the general of our glorious army." />
+		<parameter key="keyword_reply37" value="Ask the soldiers about that topic." />
+		<parameter key="keyword_reply38" value="We need all strength we can muster to smite evil!" />
+		<parameter key="keyword_reply39" value="Vile monsters, but I must admit they are strong and sometimes even cunning ... in their own bestial way." />
+		<parameter key="keyword_reply40" value="To pay your taxes, visit the royal tax collector." />
+		<parameter key="keyword_reply41" value="He has been lazy lately. I bet you have not payed any {taxes} at all." />
+		<parameter key="keyword_reply42" value="Well, if you want a reward, go on a quest to bring me {Excalibug}!" />
+		<parameter key="keyword_reply43" value="He was once my greatest {general}. Now he is very old and senile but we entrusted him with work for the Royal Tibia Mail." />
+		<parameter key="keyword_reply44" value="He is my royal jester and cheers me up now and then." />
+		<parameter key="keyword_reply45" value="A very competent person. A little nervous but very competent." />
+		<parameter key="keyword_reply46" value="The paladins are great protectors for Thais." />
+		<parameter key="keyword_reply47" value="He is the owner of Frodo's Hut and a faithful tax-payer." />
+		<parameter key="keyword_reply48" value="He was once one of Tibia's greatest fighters. Now he is selling equipment." />
+		<parameter key="keyword_reply49" value="The brave knights are necessary for human survival in Thais." />
+		<parameter key="keyword_reply50" value="The magic of the sorcerers is a powerful tool to smite our enemies." />
+		<parameter key="keyword_reply51" value="He is a skilled blacksmith and a loyal subject." />
+    </parameters>
+
+</npc>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Arkulius" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="130" head="19" body="110" legs="60" feet="95" addons="3"/>
+    <parameters>
+        
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="neutral matter,8310,5000" />
+    
+</parameters>
+
+</npc>

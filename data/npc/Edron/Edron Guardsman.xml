@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Edron Guardsman" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="131" head="57" body="19" legs="76" feet="57" addons="2"/>
+    
+</npc>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Fiona" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="151" head="77" body="120" legs="76" feet="38" addons="2"/>
+	<parameters>
+        
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="giant spider silk,5879,100;lizard scale,5881,120;red dragon scale,5882,200;ape fur,5883,120;warrior's sweat,5885,10000;fighting spirit,5884,40000;chicken feather,5890,30;perfect behemomth fang,5893,250;bat wing,5894,50;fish fin,5895,150;beholder eye,5898,80;turtle shell,5899,90;honeycomb,5902,40;magic sulphur,5904,8000;vampire dust,5905,100;demon dust,5906,300;heaven blossom,5921,50;holy orchid,5922,90;hardened bone,5925,70;behemoth claw,5930,2000;green dragon scale,5920,100;demon horn,5930,1000;enchanted chicken wing,5891,20000;glob of acid slime,9967,25;glob of mercury,9966,20;glob of tar,9968,30" />
+    
+    </parameters>
+</npc>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <raid>
+    <!--Announcements-->
+    <announce delay="1300" type="Event" message="There is an orc uprising brewing in Thais!"/>
+    <!--Area Spawns-->
+    <areaspawn delay="1500" centerx="32368" centery="32215" centerz="7" radius="30">
+      <monster name="Orc" amount="40"/>
+      <monster name="Orc Spearman" amount="25"/>
+      <monster name="Orc Warrior" amount="15"/>
+      <monster name="Orc Berserker" amount="2"/>
+      <monster name="Orc Shaman" amount="1"/>
+    </areaspawn>
+  </raid>

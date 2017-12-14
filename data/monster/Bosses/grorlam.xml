@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Grorlam" nameDescription="Grorlam" race="blood" experience="2400" speed="240" manacost="0">
+	<health now="3000" max="3000"/>
+	<look type="205" corpse="6005"/>
+	<targetchange interval="5000" chance="3"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="70" attack="75"/>
+		<attack name="physical" interval="2000" chance="40" range="7" min="-50" max="-200">
+			<attribute key="shootEffect" value="largerock"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="25">
+		<defense name="healing" interval="2000" chance="40" min="200" max="400">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="20" speedchange="270" duration="6000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="30"/>
+		<element holyPercent="20"/>
+		<element energyPercent="20"/>
+		<element deathPercent="-5"/>
+		<element firePercent="-10"/>
+	</elements>
+	<immunities>
+		<immunity earth="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+    <item id="2553" chance="10925" /><!-- pick -->
+    <item id="1294" countmax="3" chance="38000" /><!-- small stone -->
+    <item id="2509" chance="52575" /><!-- steel shield -->
+    <item id="11221" chance="56750" /><!-- shiny stone -->
+    <item id="11226" chance="52575" /><!-- sulphurous stone -->
+    <item id="2156" chance="27575" /><!-- red gem -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="2166" chance="27575" /><!-- power ring -->
+            <item id="2645" chance="13000" /><!-- steel boots -->
+            <item id="2150" countmax="2" chance="32800" /><!-- small amethyst -->
+            <item id="2152" countmax="6" chance="26200" /><!-- platinum coin -->
+            <item id="2148" countmax="99" chance="33525" /><!-- gold coin -->
+        </inside>
+    </item>
+</loot>
+</monster>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Humgolf" script="data/npc/scripts/Humgolf.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="69" head="0" body="0" legs="0" feet="0" addons="0"/>
+    <parameters>
+        <parameter key="message_greet" value="|PLAYERNAME|, good day .. or night, whatever."/>
+        <parameter key="message_farewell" value="Bye"/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="earth;god;job;life;name;quest;tibia;time;monsters;army;excalibug;ferumbras;worm;drilling license;formular 007;0815 artist;fire;geomancers;technomancers;pyromancers;elves;humans;kazordoon;big old one;bezil;duria;etzel;jimbin;kroox;maryza;uzgod;emperor;kruzak;durin;money" />
+        <parameter key="keyword_reply1" value="Home of the {worms}, home of my people, too." />
+		<parameter key="keyword_reply2" value="The {worm} does not care about gods, why should I?" />
+		<parameter key="keyword_reply3" value="I am chief rotwormtamer of Kazordoon. I sell rotworms and buy meat and tasty, fresh rats for my {worms}." />
+		<parameter key="keyword_reply4" value="Can't say I like it much." />
+		<parameter key="keyword_reply5" value="I am Humgolf Molesight, Son of {Earth}, from the Molten Rock." />
+		<parameter key="keyword_reply6" value="What by the worm are you talking about?." />
+		<parameter key="keyword_reply7" value="More nice beneath this noisy green surface." />
+		<parameter key="keyword_reply8" value="Time does not matter to a dwarf who understands the ways of the {worm}." />
+		<parameter key="keyword_reply9" value="Unwormish creatures they are." />
+		<parameter key="keyword_reply10" value="They should remember old dwarfish rotworm tactics. Think like a {worm} and the battle is almost won." />
+		<parameter key="keyword_reply11" value="Silly fairy tale." />
+		<parameter key="keyword_reply12" value="A true enemy of the {worms}." />
+		<parameter key="keyword_reply13" value="They are so cute and so intelligent." />
+		<parameter key="keyword_reply14" value="I am not allowed to sell {worms} to people without a formular 007 license to drill or a 0815 artist license." />
+		<parameter key="keyword_reply15" value="It's a special license for artists. It was only used once as I sold a white {worm} to Frietsiek and Yor." />
+		<parameter key="keyword_reply16" value="It's a special license for artists. It was only used once as I sold a white {worm} to Frietsiek and Yor." />
+		<parameter key="keyword_reply17" value="Where {earth} is giving, fire is taking. That's the way of the elements." />
+		<parameter key="keyword_reply18" value="They have an understanding of worms." />
+		<parameter key="keyword_reply19" value="GO AWAY! I heard they think of replacing {worms} with machines. That is an OUTRAGE!" />
+		<parameter key="keyword_reply20" value="Hotheads." />
+		<parameter key="keyword_reply21" value="They are not worth to be mentioned." />
+		<parameter key="keyword_reply22" value="They are not cute and not intelligent." />
+		<parameter key="keyword_reply23" value="I like the mines best." />
+		<parameter key="keyword_reply24" value="The mountain seems tasty as far as my {worms} are concerned." />
+		<parameter key="keyword_reply25" value="Always chatting. How can someone talk that much?" />
+		<parameter key="keyword_reply26" value="Thinks she's to good to talk to rotwormtamers." />
+		<parameter key="keyword_reply27" value="Does a {worm} need spells to work his kind of magic? I do neither." />
+		<parameter key="keyword_reply28" value="His tavern is too crowded and too bright for a dwarf with taste like me." />
+		<parameter key="keyword_reply29" value="Poor guy, has lost his {drilling} license for drinking." />
+		<parameter key="keyword_reply30" value="Don't like the way she looks at my {worms}." />
+		<parameter key="keyword_reply31" value="We are trading now and then. Fine dwarf he is." />
+		<parameter key="keyword_reply32" value="The emperor should spend more {money} on rotworm husbandry." />
+		<parameter key="keyword_reply33" value="The emperor should spend more {money} on rotworm husbandry." />
+		<parameter key="keyword_reply34" value="If he'd live today he'd be a rotwormtamer like me." />
+		<parameter key="keyword_reply35" value="Gold is one of the things my {worms} can unearth." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_sellable" value="dead rat,2813,2;ham,2671,4;meat,2666,2;tentacle piece,12583,5000;" />
+    </parameters>
+</npc>

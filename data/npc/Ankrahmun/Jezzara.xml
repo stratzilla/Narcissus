@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Jezzara" script="default.lua" walkinterval="1000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="138" head="3" body="43" legs="91" feet="97" addons="0"/>
+    <parameters>
+        
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="meat,2666,10;fish,2667,6;salmon,2668,7;ham,2671,15;dragon ham,2672,25;orange,2675,9;banana,2676,5;grapes,2681,8;melon,2682,13;pumpkin,2683,10;tomato,2685,10;jalapeno pepper,8844,2;onion,8843,2;carrot,2684,8" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>
+

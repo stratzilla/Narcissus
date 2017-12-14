@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Knight Hykrion" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="131" head="38" body="60" legs="19" feet="95" addons="3"/>
+        
+</npc>
+

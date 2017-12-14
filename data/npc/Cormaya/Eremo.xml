@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Eremo" script="eremo_the_wisdom_of_solitude.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="130" head="0" body="109" legs="128" feet="95"/>
+    <parameters>
+        <parameter key="message_greet" value="Welcome to my little garden, adventurer |PLAYERNAME|!" />
+    <parameter key="message_farewell" value="It was a pleasure to help you, |PLAYERNAME|."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;" />
+        <parameter key="keyword_reply1" value="I can sell few things to other Tibians. Ask me for a {trade} if you like to take a look.." />
+        
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="amulet of loss,2173,50000;protection amulet,2200,700;broken amulet,2196,1000000;" />
+        <parameter key="shop_sellable" value="amulet of loss,2173,45000;broken amulet,2196,100000;" />
+    </parameters>
+</npc>

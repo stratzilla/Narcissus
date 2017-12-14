@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lubo" script="data/npc/scripts/addons/citizen.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="38" body="39" legs="96" feet="114" addons="3"/>
+<parameters>   
+ <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="backpack,1988,25;fishing rod,2580,175;rope,2120,60;torch,2050,3;worm,3976,1;crowbar,2416,260" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Phrodomo" nameDescription="Phrodomo" race="venom" experience="500000" speed="1200" manacost="0">
+	<health now="160000" max="160000"/>
+	<look type="12" head="114" body="80" legs="79" feet="114" corpse="6068"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" min="-2000" max="-4000"/>
+		<attack name="earth" interval="1000" chance="25" radius="7" target="0" min="-2700" max="-3200">
+			<attribute key="areaEffect" value="carniphila"/>
+		</attack>
+		<attack name="speed" interval="1000" chance="17" radius="6" target="0" speedchange="-1500" duration="60000">
+			<attribute key="areaEffect" value="smallplants"/>
+		</attack>
+	</attacks>
+	<defenses armor="250" defense="250">
+		<defense name="healing" interval="1000" chance="10" min="4000" max="8000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="healing" interval="1000" chance="20" min="2500" max="4000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="20" speedchange="2600" duration="5000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity energy="1"/>
+		<immunity earth="1"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Nothing is stronger than my pure hatred!" yell="1"/>
+		<voice sentence="Mors Certa, Hora Certa." yell="1"/>
+		<voice sentence="My rancour will devour you." yell="1"/>
+	</voices>
+	<loot>
+    <item id="9971" countmax="10" chance="28900" /><!-- gold ingot -->
+    <item id="2470" chance="1915" /><!-- golden legs -->
+    <item id="8918" chance="2592" /><!-- spellbook of dark mysteries -->
+    <item id="2146" countmax="92" chance="5725" /><!-- small sapphire -->
+    <item id="7382" chance="1230" /><!-- demonrage sword -->
+    <item id="8868" chance="1500" /><!-- velvet mantle -->
+    <item id="8982" chance="100000" /><!-- addon doll -->
+    <item id="2542" chance="2000" /><!-- tempest shield -->
+    <item id="1986" chance="7275" /><!-- red tome -->
+    <item id="8904" chance="1570" /><!-- spellscroll of prophecies -->
+    <item id="2365" chance="100000"><!-- bag -->
+        <inside>
+            <item id="5944" countmax="8" chance="770" /><!-- soul orb -->
+            <item id="7422" chance="895" /><!-- jade hammer -->
+            <item id="7423" chance="1450" /><!-- skullcrusher -->
+            <item id="7403" chance="1910" /><!-- berserker -->
+            <item id="2514" chance="8400" /><!-- mastermind shield -->
+            <item id="8918" chance="1000" /><!-- spellbook of mind control -->
+            <item id="7417" chance="3900" /><!-- runed sword -->
+            <item id="7405" chance="1075" /><!-- havoc blade -->
+            <item id="2522" chance="1150" /><!-- great shield -->
+            <item id="2147" countmax="96" chance="1065" /><!-- small ruby -->
+            <item id="7414" chance="1950" /><!-- abyss hammer -->
+            <item id="2143" countmax="99" chance="580" /><!-- white pearl -->
+            <item id="7388" chance="8975" /><!-- vile axe -->
+            <item id="7894" chance="1910" /><!-- magma legs -->
+            <item id="2150" countmax="76" chance="490" /><!-- small amethyst -->
+            <item id="8903" chance="2080" /><!-- spellbook of lost souls -->
+            <item id="7435" chance="1570" /><!-- impaler -->
+            <item id="7427" chance="1250" /><!-- chaos mace -->
+            <item id="7885" chance="2595" /><!-- terra legs -->
+            <item id="7632" countmax="10" chance="3725" /><!-- giant shimmering pearl -->
+            <item id="8928" chance="8975" /><!-- obsidian truncheon -->
+            <item id="8924" chance="1075" /><!-- hellforged axe -->
+            <item id="7410" chance="8975" /><!-- queen's sceptre -->
+            <item id="2127" chance="1910" /><!-- emerald bangle -->
+            <item id="2472" chance="1550" /><!-- magic plate armor -->
+            <item id="8885" chance="2225" /><!-- divine plate -->
+            <item id="7411" chance="8975" /><!-- ornamented axe -->
+            <item id="7895" chance="1400" /><!-- lightning legs -->
+            <item id="2145" countmax="90" chance="7000" /><!-- small diamond -->
+            <item id="2387" chance="2200" /><!-- double axe -->
+            <item id="2402" chance="2200" /><!-- silver dagger -->
+            <item id="2377" chance="2200" /><!-- two handed sword -->
+            <item id="2178" chance="2200" /><!-- mind stone -->
+            <item id="2539" chance="2200" /><!-- phoenix shield -->
+            <item id="8869" chance="17450" /><!-- greenwood coat -->
+            <item id="8930" chance="3900" /><!-- emerald sword -->
+            <item id="2144" countmax="72" chance="3850" /><!-- black pearl -->
+            <item id="2149" countmax="78" chance="9375" /><!-- small emerald -->
+            <item id="7451" chance="1450" /><!-- shadow sceptre -->
+            <item id="2415" chance="1235" /><!-- great axe -->
+            <item id="7416" chance="2200" /><!-- bloody edge -->
+            <item id="2152" countmax="43" chance="2625" /><!-- platinum coin -->
+            <item id="7418" chance="8975" /><!-- nightmare blade -->
+            <item id="2520" chance="7275" /><!-- demon shield -->
+            <item id="7433" chance="2200" /><!-- ravenwing -->
+            <item id="7407" chance="2200" /><!-- haunted blade -->
+            <item id="2640" chance="1300" /><!-- soft boots -->
+            <item id="8918" chance="1300" /><!-- spellbook of dark mysteries -->
+            <item id="2390" chance="1300" /><!-- spellbook of dark mysteries -->
+            <item id="8924" chance="1300" /><!-- spellbook of dark mysteries -->
+            <item id="2522" chance="1300" /><!-- spellbook of dark mysteries -->
+            <item id="7412" chance="1300" /><!-- spellbook of dark mysteries -->
+            <item id="2471" chance="1300" /><!-- spellbook of dark mysteries -->
+            <item id="2469" chance="1300" /><!-- spellbook of dark mysteries -->
+            <item id="2506" chance="1300" /><!-- spellbook of dark mysteries -->
+            <item id="8886" chance="1300" /><!-- spellbook of dark mysteries -->
+            <item id="8881" chance="1300" /><!-- spellbook of dark mysteries -->
+            <item id="8883" chance="1300" /><!-- windborn colossus armor -->
+            <item id="8882" chance="1300" /><!-- earthborn titan armor -->
+            <item id="8884" chance="1300" /><!-- oceanborn leviathan armor -->
+            <item id="2495" chance="1300" /><!-- demon legs -->
+        </inside>
+    </item>
+	</loot>
+</monster>

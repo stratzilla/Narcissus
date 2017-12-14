@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Atrad" script="data/npc/scripts/addons/assassin2.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="152" head="114" body="114" legs="114" feet="114" addons="3"/>
+  <parameters>
+    <parameter key="message_greet" value="Welcome on board, Sir |PLAYERNAME|." />
+
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="assassin star,7368,100" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lurik" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="133" head="38" body="94" legs="96" feet="116" addons="3"/>
+  <parameters>
+        
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="orichalcum pearl,5022,80" />
+        </parameters>
+</npc>
+

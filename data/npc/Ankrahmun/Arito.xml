@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Arito" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="132" head="59" body="74" legs="62" feet="115" addons="0"/>
+    <parameters>
+        
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="meat,2666,10;ham,2671,16;bread,2689,8;cheese,2696,12;fish,2667,6" />
+        <parameter key="shop_sellable" value="" />
+    
+    </parameters>
+</npc>

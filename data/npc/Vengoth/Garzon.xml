@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Garzon" script="default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="22" body="132" legs="125" feet="75" addons="3"/>
+   
+</npc>
+
+

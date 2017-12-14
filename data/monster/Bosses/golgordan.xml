@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Golgordan" nameDescription="golgordan" race="fire" experience="10000" speed="390" manacost="0">
+	<health now="40000" max="40000"/>
+	<look type="12" head="108" body="100" legs="105" feet="114" corpse="6068"/> 
+	<targetchange interval="7000" chance="10"/>
+	<strategy attack="90" defense="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="170" attack="330"/>
+		<attack name="fire" interval="2000" chance="40" radius="7" target="1" min="-50" max="-200">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="poisoncondition" interval="2000" chance="40" length="6" spread="0" min="-100" max="-100">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>	
+		<attack name="death" interval="2000" chance="25" length="6" spread="0" min="-250" max="-570">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>		
+		<attack name="death" interval="2000" chance="35" target="1" min="-50" max="-600">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="30" length="6" spread="0" min="-50" max="-600">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+	</attacks>
+	<defenses armor="48" defense="54"/>
+	<elements>
+		<element icePercent="30"/>
+		<element energyPercent="30"/>
+		<element holyPercent="1"/>
+		<element physicalPercent="1"/>
+		<element firePercent="-5"/>
+		<element earthPercent="-5"/>
+	</elements>
+	<immunities>
+		<immunity death="1"/>
+		<immunity invisible="1"/>
+		<immunity lifedrain="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Latrivan, you fool!" yell="1"/>
+	</voices>
+		<loot>
+    <item id="2158" chance="1550" /><!-- blue gem -->
+    <item id="2155" chance="4675" /><!-- green gem -->
+    <item id="2402" chance="10925" /><!-- silver dagger -->
+    <item id="2182" chance="6750" /><!-- snakebite rod -->
+    <item id="2192" chance="1550" /><!-- crystal ball -->
+    <item id="2185" chance="4675" /><!-- necrotic rod -->
+    <item id="2520" chance="7800" /><!-- demon shield -->
+    <item id="2393" chance="7800" /><!-- giant sword -->
+    <item id="2179" chance="8825" /><!-- gold ring -->
+    <item id="9971" chance="8825" /><!-- gold ingot -->
+    <item id="2396" chance="8825" /><!-- ice rapier -->
+    <item id="2462" chance="3625" /><!-- devil helmet -->
+    <item id="1988" chance="100000"><!-- bag -->
+        <inside>
+            <item id="7365" countmax="6" chance="4150" /><!-- onyx arrow -->
+            <item id="6300" chance="8825" /><!-- death ring -->
+            <item id="2200" chance="9875" /><!-- protection amulet -->
+            <item id="2165" chance="18200" /><!-- stealth ring -->
+            <item id="2150" countmax="20" chance="8150" /><!-- small amethyst -->
+            <item id="2162" chance="18200" /><!-- magic light wand -->
+            <item id="2436" chance="2575" /><!-- skull staff -->
+            <item id="2164" chance="3625" /><!-- might ring -->
+            <item id="2171" chance="1550" /><!-- platinum amulet -->
+            <item id="2186" chance="3625" /><!-- moonlight rod -->
+            <item id="2197" chance="9875" /><!-- stone skin amulet -->
+            <item id="2170" chance="19250" /><!-- silver amulet -->
+            <item id="2432" chance="10925" /><!-- fire axe -->
+            <item id="2145" countmax="5" chance="11125" /><!-- small diamond -->
+            <item id="2387" chance="24450" /><!-- double axe -->
+            <item id="7591" countmax="2" chance="19775" /><!-- great health potion -->
+            <item id="2143" countmax="13" chance="7950" /><!-- white pearl -->
+            <item id="2144" countmax="15" chance="6550" /><!-- black pearl -->
+            <item id="2214" chance="26550" /><!-- ring of healing -->
+            <item id="2149" countmax="10" chance="10600" /><!-- small emerald -->
+            <item id="6500" chance="11950" /><!-- demonic essence -->
+            <item id="2167" chance="15075" /><!-- energy ring -->
+            <item id="2146" countmax="8" chance="5325" /><!-- small sapphire -->
+            <item id="2148" countmax="100" chance="53250" /><!-- gold coin -->
+            <item id="2148" countmax="100" chance="53250" /><!-- gold coin -->
+            <item id="2148" countmax="57" chance="53250" /><!-- gold coin -->
+            <item id="2178" chance="4675" /><!-- mind stone -->
+            <item id="2195" chance="2575" /><!-- boots of haste -->
+            <item id="7368" countmax="8" chance="1550" /><!-- assassin star -->
+        </inside>
+    </item>
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</monster>

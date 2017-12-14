@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Premium Exchanger" script="data/npc/scripts/premium.lua" walkinterval="0" floorchange="0">
+<health now="100" max="100"/>
+<look type="152" head="85" body="86" legs="106" feet="86" addons="3"/>
+<parameters>
+        <parameter key="message_greet" value="Hello there. I can exhange 50 game {tokens} for 5 premium points. You can win them in the event CTF."/>
+        <parameter key="message_farewell" value="Farewell."/>
+		<parameter key="message_walkaway" value="Farewell. "/>
+</parameters>
+</npc>
